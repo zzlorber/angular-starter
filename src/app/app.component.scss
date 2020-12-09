@@ -1,0 +1,23 @@
+.container{
+    color: #5D5E61;
+    width: 60%;
+    margin: auto;
+    .title {
+        font-weight: 600;
+        line-height: 25px;
+        font-size: 18px;
+    }
+    .chart{
+        display: block;
+    }
+    .list{
+        display: flex;
+        
+        .collection{
+            flex: 1;    
+        }
+        .details{
+            flex: 1;    
+        }
+    }
+}
